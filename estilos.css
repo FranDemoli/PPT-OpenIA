@@ -1,0 +1,38 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#opciones button {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border: none;
+  border-radius: 50%;
+  background-color: #ccc;
+  font-size: 24px;
+  color: #fff;
+  cursor: pointer;
+}
+
+#piedra {
+  background-color: #444;
+}
+
+#papel {
+  background-color: #fff;
+  color: #444;
+}
+
+#tijera {
+  background-color: #f00;
+}
+
+#resultado {
+  margin-top: 20px;
+}
+
+#mensaje {
+  font-size: 18px;
+}
+
